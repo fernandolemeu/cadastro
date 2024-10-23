@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    }
+    header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    }
+    main {
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 80%;
+    max-width: 600px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .form-group {
+    margin-bottom: 1.5rem;
+    }
+    label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    }
+    input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    /* Parte incompleta: estilo para o botão de enviar */
+    button {
+    /* Adicione aqui o estilo do botão */
+    }
+    #errorMessage {
+    color: red;
+    font-weight: bold;
+    margin-top: 1rem;
+    }
